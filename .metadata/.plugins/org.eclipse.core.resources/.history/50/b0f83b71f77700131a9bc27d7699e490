@@ -1,0 +1,12 @@
+package com.example.android.animationsdemo;
+
+import java.util.HashMap;
+
+public class TravelReadData {
+
+	public HashMap<String, TravelMetadata> getData() {
+		HashMap<String, Tr>
+		
+	}
+	
+}
