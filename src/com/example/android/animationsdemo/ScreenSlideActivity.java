@@ -19,9 +19,9 @@ package com.example.android.animationsdemo;
 import java.util.Formatter;
 import java.util.HashMap;
 
-import com.samsung.android.sdk.SsdkUnsupportedException;
-import com.samsung.android.sdk.gesture.Sgesture;
-import com.samsung.android.sdk.gesture.SgestureHand;
+//import com.samsung.android.sdk.SsdkUnsupportedException;
+//import com.samsung.android.sdk.gesture.Sgesture;
+//import com.samsung.android.sdk.gesture.SgestureHand;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -87,7 +87,10 @@ public class ScreenSlideActivity extends FragmentActivity {
 		super.onCreate(savedInstanceState);
 		data = TravelReadData.getData();
 		setContentView(R.layout.activity_screen_slide);
-		initialize();
+		
+		//gestures sdk initialization - commented right now
+		//initialize();
+		
 		// Instantiate a ViewPager and a PagerAdapter.
 		mPager = (ViewPager) findViewById(R.id.pager);
 		mPagerAdapter = new ScreenSlidePagerAdapter(getFragmentManager());
@@ -179,7 +182,7 @@ public class ScreenSlideActivity extends FragmentActivity {
 	}
 	
 	
-	Sgesture mGesture;
+	/*Sgesture mGesture;
 	private SgestureHand mSgestureHand;
 	private static final int MODE_HAND_PRIMITIVE = 0;
 
@@ -226,14 +229,14 @@ public class ScreenSlideActivity extends FragmentActivity {
 			displayData(info);
 		}
 
-	};
+	};*/
 
 	private int getRotation() {
 		final Display display = getWindowManager().getDefaultDisplay();
 		return display.getRotation();
 	}
 
-	private void displayData(SgestureHand.Info info) {
+	/*private void displayData(SgestureHand.Info info) {
 		final Direction direction;
 
 		Time time = new Time();
@@ -283,5 +286,5 @@ public class ScreenSlideActivity extends FragmentActivity {
 		}
 
 		
-	}
+	}*/
 }
