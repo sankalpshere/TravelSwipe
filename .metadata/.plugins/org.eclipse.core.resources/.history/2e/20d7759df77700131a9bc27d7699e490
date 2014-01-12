@@ -1,0 +1,14 @@
+package com.example.android.animationsdemo;
+
+import java.util.HashMap;
+
+public class TravelReadData {
+
+	public HashMap<String, TravelMetadata> getData() {
+		HashMap<String, TravelMetadata> data = new HashMap<String, TravelMetadata>();
+		data.put("image1", new TravelMetadata("image1", "Austin", "Music"));
+		
+		return data;
+	}
+	
+}

@@ -1,0 +1,43 @@
+package com.example.android.animationsdemo;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class TravelReadData {
+
+	public static HashMap<String, TravelMetadata> getData() {
+		HashMap<String, TravelMetadata> data = new HashMap<String, TravelMetadata>();
+		data.put("image1", new TravelMetadata("image1", "Austin", "Music"));
+		data.put("image2", new TravelMetadata("image2", "Seattle", "Coffee"));
+		data.put("image3", new TravelMetadata("image3", "Singapore", "Food"));
+		data.put("image4", new TravelMetadata("image4", "Washington", "Museum"));
+		return data;
+	}
+	
+	static List<TravelMetadata> data = new ArrayList<TravelMetadata>();
+
+	public static List<TravelMetadata> getData1() {
+		data.add(new TravelMetadata("place1", "Chicago", "Active"));
+		data.add(new TravelMetadata("place2", "Chicago", "Arts"));
+		data.add( new TravelMetadata("place3", "Chicago", "Nightlife"));
+		data.add( new TravelMetadata("place4", "Chicago", "Restaurant"));
+		data.add( new TravelMetadata("place9", "Chicago", "Shopping"));
+		data.add( new TravelMetadata("place5", "Seattle", "Active"));
+		data.add( new TravelMetadata("place6", "Seattle", "Arts"));
+		data.add( new TravelMetadata("place7", "Seattle", "Nightlife"));
+		data.add( new TravelMetadata("place8", "Seattle", "Restaurant"));
+		data.add( new TravelMetadata("place10", "Seattle", "Shopping"));
+		data.add( new TravelMetadata("place5", "Vegas", "Active"));
+		data.add( new TravelMetadata("place6", "Vegas", "Arts"));
+		data.add( new TravelMetadata("place7", "Vegas", "Nightlife"));
+		data.add( new TravelMetadata("place8", "Vegas", "Restaurant"));
+		data.add( new TravelMetadata("place10", "Seattle", "Shopping"));
+		return data;
+	}
+	
+	public static TravelMetadata getDataByIndex(int index) {
+		return data.get(index);
+	}
+
+}

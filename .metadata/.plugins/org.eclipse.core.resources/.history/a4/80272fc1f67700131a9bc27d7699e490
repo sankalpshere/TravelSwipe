@@ -1,0 +1,10 @@
+package com.example.android.animationsdemo;
+
+public class TravelMetadata {
+	private String imageName;
+	private String city;
+	private String category;
+	
+	
+	
+}

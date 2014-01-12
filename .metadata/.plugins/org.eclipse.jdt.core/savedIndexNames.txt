@@ -1,0 +1,6 @@
+INDEX VERSION 1.126+/Users/sankalpshere/Projects/gomodev-vegas-new/.metadata/.plugins/org.eclipse.jdt.core
+2308793452.index
+3734133312.index
+687201267.index
+765453901.index
+3244126122.index

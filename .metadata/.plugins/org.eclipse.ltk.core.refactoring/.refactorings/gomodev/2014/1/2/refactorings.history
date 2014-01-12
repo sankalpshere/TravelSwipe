@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;drawable-mdpi&apos;&#x0A;- Original project: &apos;gomodev&apos;&#x0A;- Destination element: &apos;drawable-mdpi&apos;&#x0A;- Original elements:&#x0A;     seattle.jpg&#x0A;     austin.jpg&#x0A;     singapore.jpg&#x0A;     washingondc.jpg" description="Copy files" element1="res/drawable-mdpi/seattle.jpg" element2="res/drawable-mdpi/austin.jpg" element3="res/drawable-mdpi/singapore.jpg" element4="res/drawable-mdpi/washingondc.jpg" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1389135067605" target="/MainActivity/res/drawable-mdpi" units="0" version="1.0"/>
+</session>
