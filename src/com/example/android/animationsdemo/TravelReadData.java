@@ -12,6 +12,36 @@ public class TravelReadData {
 		data.put("image2", new TravelMetadata("image2", "Seattle", "Coffee"));
 		data.put("image3", new TravelMetadata("image3", "Singapore", "Food"));
 		data.put("image4", new TravelMetadata("image4", "Washington", "Museum"));
+		data.put("edit_chicago_active_1" , new TravelMetadata("edit_chicago_active_1" , "Chicago" , "Active"));
+		data.put("edit_chicago_arts_0" , new TravelMetadata("edit_chicago_arts_0" , "Chicago" , "Arts"));
+		data.put("edit_chicago_arts_1" , new TravelMetadata("edit_chicago_arts_1" , "Chicago" , "Arts"));
+		data.put("edit_chicago_nightlife_0" , new TravelMetadata("edit_chicago_nightlife_0" , "Chicago" , "Nightlife"));
+		data.put("edit_chicago_nightlife_1" , new TravelMetadata("edit_chicago_nightlife_1" , "Chicago" , "Nightlife"));
+		data.put("edit_chicago_restaurants_0" , new TravelMetadata("edit_chicago_restaurants_0" , "Chicago" , "Restaurants"));
+		data.put("edit_chicago_restaurants_1" , new TravelMetadata("edit_chicago_restaurants_1" , "Chicago" , "Restaurants"));
+		data.put("edit_chicago_shopping_0" , new TravelMetadata("edit_chicago_shopping_0" , "Chicago" , "Shopping"));
+		data.put("edit_chicago_shopping_1" , new TravelMetadata("edit_chicago_shopping_1" , "Chicago" , "Shopping"));
+		data.put("edit_seattle_active_0" , new TravelMetadata("edit_seattle_active_0" , "Seattle" , "Active"));
+		data.put("edit_seattle_active_1" , new TravelMetadata("edit_seattle_active_1" , "Seattle" , "Active"));
+		data.put("edit_seattle_arts_0" , new TravelMetadata("edit_seattle_arts_0" , "Seattle" , "Arts"));
+		data.put("edit_seattle_arts_1" , new TravelMetadata("edit_seattle_arts_1" , "Seattle" , "Arts"));
+		data.put("edit_seattle_nightlife_0" , new TravelMetadata("edit_seattle_nightlife_0" , "Seattle" , "Nightlife"));
+		data.put("edit_seattle_nightlife_1" , new TravelMetadata("edit_seattle_nightlife_1" , "Seattle" , "Nightlife"));
+		data.put("edit_seattle_restaurants_0" , new TravelMetadata("edit_seattle_restaurants_0" , "Seattle" , "Restaurants"));
+		data.put("edit_seattle_restaurants_1" , new TravelMetadata("edit_seattle_restaurants_1" , "Seattle" , "Restaurants"));
+		data.put("edit_seattle_shopping_0" , new TravelMetadata("edit_seattle_shopping_0" , "Seattle" , "Shopping"));
+		data.put("edit_seattle_shopping_1" , new TravelMetadata("edit_seattle_shopping_1" , "Seattle" , "Shopping"));
+		data.put("edit_vegas_active_0" , new TravelMetadata("edit_vegas_active_0" , "Vegas" , "Active"));
+		data.put("edit_vegas_active_1" , new TravelMetadata("edit_vegas_active_1" , "Vegas" , "Active"));
+		data.put("edit_vegas_arts_0" , new TravelMetadata("edit_vegas_arts_0" , "Vegas" , "Arts"));
+		data.put("edit_vegas_arts_1" , new TravelMetadata("edit_vegas_arts_1" , "Vegas" , "Arts"));
+		data.put("edit_vegas_nightlife_0" , new TravelMetadata("edit_vegas_nightlife_0" , "Vegas" , "Nightlife"));
+		data.put("edit_vegas_nightlife_1" , new TravelMetadata("edit_vegas_nightlife_1" , "Vegas" , "Nightlife"));
+		data.put("edit_vegas_restaurants_0" , new TravelMetadata("edit_vegas_restaurants_0" , "Vegas" , "Restaurants"));
+		data.put("edit_vegas_restaurants_1" , new TravelMetadata("edit_vegas_restaurants_1" , "Vegas" , "Restaurants"));
+		data.put("edit_vegas_shopping_0" , new TravelMetadata("edit_vegas_shopping_0" , "Vegas" , "Shopping"));
+		data.put("edit_vegas_shopping_1" , new TravelMetadata("edit_vegas_shopping_1" , "Vegas" , "Shopping"));
+
 		return data;
 	}
 	

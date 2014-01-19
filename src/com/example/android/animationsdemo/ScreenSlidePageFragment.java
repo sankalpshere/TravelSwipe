@@ -69,7 +69,8 @@ public class ScreenSlidePageFragment extends Fragment {
         ViewGroup rootView = (ViewGroup) inflater
                 .inflate(R.layout.fragment_screen_slide_page, container, false);
         int page = (mPageNumber + 1);
-        ((ImageView)rootView.findViewById(R.id.imageView1)).setImageResource(getResources().getIdentifier("place" + page, "drawable", "com.example.android.animationsdemo"));
+        String id = Utility.getImage(page);
+        ((ImageView)rootView.findViewById(R.id.imageView1)).setImageResource(getResources().getIdentifier(id, "drawable", "com.example.android.animationsdemo"));
         System.out.println("=======Index ======== "+mPageNumber  + " value = "+"place" + (page));
         //TravelMetadata data = TravelReadData.getDataByIndex(mPageNumber);
       
